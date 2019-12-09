@@ -1,0 +1,28 @@
+set ns [new Simulator]
+source tb_compat.tcl
+
+set node01 [$ns node]
+tb-fix-node node01 zotacG4
+tb-set-node-os node01 UBUNTU-12-dkulenka-v
+
+set node02 [$ns node]
+tb-fix-node node02 zotacJ3
+tb-set-node-os node02 UBUNTU-12-dkulenka-v
+
+set node03 [$ns node]
+tb-fix-node node03 zotacK2
+tb-set-node-os node03 UBUNTU-12-dkulenka-v
+
+set node04 [$ns node]
+tb-fix-node node04 zotacF3
+tb-set-node-os node04 UBUNTU-12-dkulenka-v
+
+set node05 [$ns node]
+tb-fix-node node05 zotacI4
+tb-set-node-os node05 UBUNTU-12-dkulenka-v
+
+set node06 [$ns node]
+tb-fix-node node06 zotacK3
+tb-set-node-os node06 UBUNTU-12-dkulenka-v
+
+$ns run

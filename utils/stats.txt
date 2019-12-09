@@ -1,0 +1,1 @@
+drop ratemean: 0.0variance: 0.0std deviation: 0.0jittermean: 0.0199647721088variance: 4.96073175957e-07std deviation: 0.000704324623989delaymean: 0.0320366870748variance: 3.50390314327e-05std deviation: 0.00591937762207mosmean: 4.17446646939variance: 4.56128850586e-05std deviation: 0.00675373119532

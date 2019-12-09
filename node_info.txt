@@ -1,0 +1,4 @@
+zotacI6,ath9k,1
+zotacH6,ath9k,1
+zotacH2,ath9k,1
+zotacK2,ath9k,1
